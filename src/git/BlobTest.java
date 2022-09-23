@@ -1,9 +1,6 @@
-package src.git;
+package git;
 
 import java.io.IOException;
-
-import git.Blob;
-import git.Index;
 
 public class BlobTest {
 	public static void main(String[] args) throws IOException {
