@@ -19,12 +19,14 @@ class IndexTester {
 		assertTrue(index.exists());
 	}
 
+	@Test
 	void objectsTest() throws IOException {
 		Index ind = new Index();
 		File objectsDir = new File("Objects");
 		assertTrue(objectsDir.exists());
 	}
 
+	@Test
 	void addTest() throws IOException {
 		Index ind = new Index();
 		Blob blobbie = new Blob("naalah.txt");
